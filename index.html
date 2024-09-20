@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body class="container">
+    <header class="titulo">
+        <h1>Calculadora</h1>
+    </header>
+    <main>
+        <div class="operadoresContainer">
+            <!--las dos cajas de numeros-->
+            <input type="number" class="operadores">
+            <input type="number" class="operadores">
+        </div>
+        <div class="funcionesContainer">
+            <!--las funciones que pidio el mentor-->
+            <button class="funciones" onclick="">Suma</button>
+            <button class="funciones" onclick="">Resta</button>
+            <button class="funciones" onclick="">Multiplicación</button>
+            <button class="funciones" onclick="">División</button>
+            <button class="funciones" onclick="">Raíz Cuadrada</button>
+            <button class="funciones" onclick="">Potencia</button>
+            <button class="funciones" onclick="">Valor Absoluto</button>
+            <button class="funciones" onclick="">Random</button>
+            <!--recordar las tres opciones de redondear-->
+            <button class="funciones" onclick="">Round</button>
+            <button  class="funciones">Floor</button>
+            <button class="funciones">Ceil</button>
+        </div>
+        <div class="titulo">
+            <!--el display del resultado-->
+            <input type="text" name="" id="resultado">
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
