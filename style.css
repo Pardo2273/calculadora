@@ -1,7 +1,7 @@
 /*este es el container del body que engloba todo*/
 .container{
     border-style: double;
-    padding: 7.8rem;
+    padding: 5.4rem;
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
@@ -62,4 +62,17 @@
     height: 25px;
     padding: 1rem;
     font-size: x-large;
+}
+
+.redondeoContainer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50%;
+    padding: 1rem;
+}
+
+.redondeo{
+    width: 200px;
+    height: 50px;
 }

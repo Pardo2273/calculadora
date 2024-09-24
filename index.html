@@ -13,27 +13,29 @@
     <main>
         <div class="operadoresContainer">
             <!--las dos cajas de numeros-->
-            <input type="number" class="operadores">
-            <input type="number" class="operadores">
+            <input type="number" class="operadores" id="operador1">
+            <input type="number" class="operadores" id="operador2"> 
         </div>
+        <p style="text-align: center;">Nota: Para las funciones de Raíz cuadrada y Valor Absoluto solo se tome en cuenta la segunda casilla del operador</p>
         <div class="funcionesContainer">
             <!--las funciones que pidio el mentor-->
-            <button class="funciones" onclick="">Suma</button>
-            <button class="funciones" onclick="">Resta</button>
-            <button class="funciones" onclick="">Multiplicación</button>
-            <button class="funciones" onclick="">División</button>
-            <button class="funciones" onclick="">Raíz Cuadrada</button>
-            <button class="funciones" onclick="">Potencia</button>
-            <button class="funciones" onclick="">Valor Absoluto</button>
-            <button class="funciones" onclick="">Random</button>
-            <!--recordar las tres opciones de redondear-->
-            <button class="funciones" onclick="">Round</button>
-            <button  class="funciones">Floor</button>
-            <button class="funciones">Ceil</button>
+            <button class="funciones" onclick="sumar()">Suma</button>
+            <button class="funciones" onclick="restar()">Resta</button>
+            <button class="funciones" onclick="multiplicar()">Multiplicación</button>
+            <button class="funciones" onclick="dividir()">División</button>
+            <button class="funciones" onclick="raiz()">Raíz Cuadrada</button>
+            <button class="funciones" onclick="potencia()">Potencia</button>
+            <button class="funciones" onclick="valorAbsoluto()">Valor Absoluto</button>
+            <button class="funciones" onclick="aleatorio()">Random</button>
         </div>
         <div class="titulo">
             <!--el display del resultado-->
-            <input type="text" name="" id="resultado">
+            <input type="text" id="resultado">
+        </div>
+        <div class="redondeoContainer">
+            <button class="redondeo" onclick="round()">Round</button>
+            <button  class="redondeo" onclick="floor()">Floor</button>
+            <button class="redondeo" onclick="ceil()">Ceil</button>
         </div>
     </main>
     <script src="script.js"></script>
